@@ -53,6 +53,7 @@ let word8 = "Be Care Full";
 
 console.log(word8.replace("Care","Use"));
 console.log(word8.replace("Care Full","Practical"));
+console.log(word8.replace("Care","Help"));
 
 //repeat
 

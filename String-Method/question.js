@@ -7,6 +7,7 @@ console.log("");
 let Name = "ApnaCollege";
 
 console.log("Question-2");
+// console.log(Name.slice(4,9),Name.indexOf("na"),Name.replace("Apna","Our"))
 console.log(Name);
 console.log(Name.slice(4,9));
 console.log(Name.indexOf("na"));

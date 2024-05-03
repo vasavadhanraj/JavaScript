@@ -20,7 +20,7 @@ console.log(age8 - 35);
 let age9 = 60;
 console.log(age9 / 2);
 let age10 = 65;
-console.log(age10 - 33);
+console.log(age10 % 33);
 
 console.log("Next 10 Questions");
 let hindi = 80;

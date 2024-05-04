@@ -1,3 +1,5 @@
+//Array
+
 let students = ["Ajay","Aakash","Anand"];
 
 console.log(students[0]);
@@ -30,17 +32,17 @@ console.log(fruits);
 //push
 let vehicles = ["Bikes","Cars","Buses"];
 console.log(vehicles);
-console.log(vehicles.push("Train"));
+console.log(vehicles.push("Train"));//add element in lastIndex
 console.log(vehicles);
-console.log(vehicles.pop());
+console.log(vehicles.pop());//Delete element from lastindex
 console.log(vehicles);
 console.log(vehicles.pop());
 console.log(vehicles);
 
 //unshift
-console.log(vehicles.unshift("Motor Boats"));
+console.log(vehicles.unshift("Motor Boats"));//add element in 0th index
 console.log(vehicles);
-console.log(vehicles.shift());
+console.log(vehicles.shift());//Delete element from 0th Index
 console.log(vehicles);
 console.log(vehicles.shift());
 console.log(vehicles);

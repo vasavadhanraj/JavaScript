@@ -79,7 +79,7 @@ for(let i = 0;i < arr2.length;i++){
 }
 console.log("---------------------------------------------------------------------");
 
-//For Loop
+//For Loop in string
 for(ar of arr1){
     for (array2 of ar){
         console.log(array2);

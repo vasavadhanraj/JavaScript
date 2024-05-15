@@ -49,7 +49,7 @@ console.log("");
 
 
 console.log("Question 5");
-let array1 = [10,25,15,35,55,45,80,69,120,100,190,199];
+let array1 = [10,25,15,35,55,250,45,80,69,120,100,190,199];
 let largest = 0;
 
 for(let i = 0;i <array1.length;i++){

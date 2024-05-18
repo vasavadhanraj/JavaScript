@@ -1,0 +1,97 @@
+let age = 23;
+console.log(age + 2);
+console.log("Practice 10 Questions");
+let age1 = 34;
+console.log(age1 + 5);
+let age2 = 52;
+console.log(age2 / 2);
+let age3 = 45;
+console.log(age3 - 4);
+let age4 = 20;
+console.log(age4 * 2);
+let age5 = 39;
+console.log(age5 - 12);
+let age6 = 60;
+console.log(age6 / 4);
+let age7 = 23;
+console.log(age7 * 3);
+let age8 = 75;
+console.log(age8 - 35);
+let age9 = 60;
+console.log(age9 / 2);
+let age10 = 65;
+console.log(age10 % 33);
+
+console.log("Next 10 Questions");
+let hindi = 80;
+let eng = 90;
+let math = 100;
+let avg = (hindi + eng + math);
+console.log(avg / 3);
+console.log(avg * 2);
+console.log(avg / 2);
+console.log(avg + 4);
+console.log(avg + 20);
+console.log(avg - 35);
+console.log(avg * 3);
+console.log(avg / 4);
+console.log(avg - 200);
+console.log(avg / 5);
+
+let num = 5;
+let newNum = num;
+console.log("Practice Question:-2");
+console.log(newNum);
+console.log(newNum = num++);
+console.log(newNum = ++num);
+
+let error = 1;
+console.log("Practice Question:-3 : Find Error");
+console.log("Question 1 Ans:-Variable does not start with number.");
+console.log("Question 2 Ans:-It does not have error.");
+console.log("Question 3 Ans:-Boolean Character cannot be written in apostrophe.");
+
+let a = "Dhanraj";
+console.log("Practice Question:-4");
+console.log(a);
+console.log(typeof a);
+console.log(a.length);
+console.log(a.charAt(0));
+console.log(a.charAt(6));
+let b = "apnacollege"
+console.log(b +123);
+let c = "";
+console.log(c.length);
+let d = " ";
+console.log(d.length);
+
+let e = 65;
+let f = 245;
+console.log("Practice");
+console.log(e + f / 7);
+console.log(e - f / 7);
+console.log(e + f * 7);
+console.log(e - f * 7);
+console.log(e - f % 7);
+console.log(e - f + 170);
+
+let g = 10;
+let h = 65;
+console.log("");
+console.log("Practice");
+console.log(g);
+console.log(newNum = g++);
+console.log(newNum = ++g);
+console.log(e - f / g);
+console.log((e - f) + (g + h));
+console.log((e + f - g) / h);
+console.log((e * f) / (g * h));
+console.log(typeof g);
+console.log(typeof h);
+
+let i = true;
+let j = false;
+console.log(i);
+console.log(typeof i);
+console.log(j);
+console.log(typeof j);

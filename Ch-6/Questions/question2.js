@@ -1,9 +1,17 @@
 console.log("Question-1");
 function element() {
+    let array = [10,34,391,90,293,192];
+    let largest = 0;
+
+    for(let i=0;i<array.length;i++){
+        if(largest < array[i]){
+            largest = array[i];
+        }
+    }
+    console.log(largest);
 }
 
-
-
+element();
 
 console.log("");
 
@@ -22,12 +30,13 @@ console.log("");
 
 console.log("Question-3");
 let country = ["Australia","Germany","United States of America"];
+let value2 = 3;
 
 
 console.log("");
 
 console.log("Question-4");
-
+let vowels = "aeiou";
 
 
 

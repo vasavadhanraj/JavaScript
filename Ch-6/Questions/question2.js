@@ -30,13 +30,25 @@ console.log("");
 
 console.log("Question-3");
 let country = ["Australia","Germany","United States of America"];
-let value2 = 3;
+
+
 
 
 console.log("");
 
 console.log("Question-4");
-let vowels = "aeiou";
+function getVowels(str1) {
+    let vowels = "aeiouAEIOU";
+    let vcount = 0;
+    for(let i = 0;i <str1.length;i++){
+        if(vowels.indexOf(str1[i]) !== -1){
+            vcount += 1;
+        }
+    }
+    console.log(vcount);
+}
+
+getVowels("America");
 
 
 

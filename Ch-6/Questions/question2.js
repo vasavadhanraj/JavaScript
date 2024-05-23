@@ -29,7 +29,21 @@ value();
 console.log("");
 
 console.log("Question-3");
-let country = ["Australia","Germany","United States of America"];
+function LongestName() {
+    let countryname = ["Australia","Germany","United States of America"];
+    let country = 9;
+    for(let i=0;i<countryname.length;i++){
+        if(country < countryname[i]){
+            console.log(countryname);
+        }
+    }
+}
+
+LongestName();
+// if(countryname.length === 0){
+//     return ("Input array is empty");
+// }
+// const sortedNames = countryname.sort(a,b) = b.length - a.length
 
 
 
